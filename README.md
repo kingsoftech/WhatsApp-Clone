@@ -2,9 +2,11 @@
  
 this App is a follow up of a youtube Video by Btech
 follow the link below
-https://www.youtube.com/watch?v=lJfMvLTKnwI&t=1sCancel changes
+https://www.youtube.com/watch?v=lJfMvLTKnwI&t=1sCancel
 
-tools
+but in this I made use of Kotlin
+
+#tools
 Android Studio
 firebase realtimedatabase
 firebase storage
