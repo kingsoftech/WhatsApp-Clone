@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=lJfMvLTKnwI&t=1sCancel
 but in this I made use of Kotlin
 
 # tools
- Android Studio
+Android Studio
 firebase realtimedatabase
 firebase storage
 firebase Auth
