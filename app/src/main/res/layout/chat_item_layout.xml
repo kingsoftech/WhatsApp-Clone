@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_user_profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="2dp"
+        android:contentDescription="image"
+        android:src="@drawable/avatar3"
+        app:civ_border_color="@android:color/black"
+        app:civ_border_width="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:padding="5dp"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Oyero Abdullahi"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastMessage"
+            android:padding="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/black"
+            android:text="hi abdullahi"
+            android:textSize="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
